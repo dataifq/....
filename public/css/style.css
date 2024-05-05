@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+body, .main-cont{
+  background: #f0f0f0 !important;
+}
+
+.app{
+  font-family: "Roboto", sans-serif;
+}
+
+.title{
+  text-align: center;
+  margin-top: 15%;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.pin-transition{
+  transition: 0.1s;
+}
+
+.card:hover .pin-transition{
+  transform: translate(0, 10px)
+}
+
